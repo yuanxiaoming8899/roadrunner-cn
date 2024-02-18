@@ -49,10 +49,7 @@
 <span class="pl-k">COPY</span> --from=roadrunner /usr/bin/rr /usr/local/bin/rr
 
 <span class="pl-c"><span class="pl-c">#</span> USE THE RR</span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="FROM ghcr.io/roadrunner-server/roadrunner:2023.X.X AS roadrunner
-FROM php:8.2-cli
-
-COPY --from=roadrunner /usr/bin/rr /usr/local/bin/rr
+    
 
 # USE THE RR" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
